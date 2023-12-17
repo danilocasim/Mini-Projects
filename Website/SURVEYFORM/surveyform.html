@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="surveyform.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+<h1 id="title">Survey Form</h1>
+<div class="title">
+<p id="description">What do you love about me?</p>
+</div>
+<div class="form">
+<form id="survey-form">
+  <div class="name">Name
+  <label id="name-label">
+  <input placeholder="Enter your name" required id="name" type="text"></input>
+  </label>
+  </div>
+  <div class="email">Email
+  <label id="email-label">
+  <input placeholder="Enter your email" required id="email" type="email"></input>
+  </label>
+  </div>
+  <div class="age">Age(optional)
+  <label id="number-label">
+  <input placeholder="Age" id="number" type="number" min="17" max="120"></input>
+  </label>
+  </div>What do you like about me
+  <div class="dropdown">
+  <select id="dropdown">
+    <option value="">Select current role</option>
+    <option value="1">curabitur vitae nunc sed velit</option>
+    <option value="2">curabitur vitae nunc sed velit</option>
+    <option value="3">curabitur vitae nunc sed velit</option>
+  </select>
+  <label for="defintely">
+    <input class="input-radio" name="radio" value="definitely" id="definitely" type="radio"      name="definitely"></input>
+    </label>
+    <label for="maybe">
+    <input class="input-radio" name="radio" value="maybe" id="maybe" type="radio" name="maybe"></input>
+    </label>
+    <label for="notsure">
+      <input class="input-radio" name="radio" value="notsure" id="notsure" type="radio" name="notsure"></input>
+      </label>
+      </div>
+      <div class="check">
+  <label class="check">
+    <input class="checkbox" type="checkbox" value="checkbox"></input>
+    <input class="checkbox" type="checkbox" value="checkbox"></input>
+    <input class="checkbox" type="checkbox" value="checkbox"></input>
+    <input class="checkbox" type="checkbox" value="checkbox"></input>
+  <section>
+  </label>
+  </div>
+  <div class="comments">
+  <label>
+    <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+  </label>
+  </div>
+  <div class="submit">
+  <label>
+    <button id="submit" value="submit" name="submit">Submit</button>
+  </label>
+  </div>
+  </section>
+
+
+  </form>
+  </div>
+  </div>
+  </html>
